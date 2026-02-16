@@ -1,0 +1,20 @@
+.group-container {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  transition: background 0.3s ease;
+}
+
+.group-container:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.group-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #7c3aed, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
